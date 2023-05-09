@@ -1,0 +1,270 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+     margin-top: 200px;
+     width: 80%;
+     height: 80vh;
+     flex-direction: column;
+     display: flex;
+}
+
+.linha{
+    width:80%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.botao
+{
+   
+        --bg: #ffffff;
+        --text-color: #130404;
+        position: relative;
+        width: 150px;
+        border: none;
+        background: var(--bg);
+        color: var(--text-color);
+        padding: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.2s;
+        border-radius: 5px;
+        opacity: 0.8;
+        letter-spacing: 1px;
+        box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+      }
+      
+      button:hover {
+        opacity: 1;
+      }
+      
+      button:active {
+        top: 4px;
+        box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+      }
+
+      .botaoshit
+      {
+         
+              --bg: #ffffff;
+              --text-color: #130404;
+              position: relative;
+              width: 220px;
+              border: none;
+              background: var(--bg);
+              color: var(--text-color);
+              padding: 1em;
+              font-weight: bold;
+              text-transform: uppercase;
+              transition: 0.2s;
+              border-radius: 5px;
+              opacity: 0.8;
+              letter-spacing: 1px;
+              box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+            }
+            
+            button:hover {
+              opacity: 1;
+            }
+            
+            button:active {
+              top: 4px;
+              box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+            }
+
+.botaoctrl
+{
+    --bg: #ffffff;
+    --text-color: #130404;
+    position: relative;
+    width: 150px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+  }
+.botaoalt{
+    --bg: #ffffff;
+    --text-color: #130404;
+    position: relative;
+    width: 150px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+}
+.esc{
+    --bg: #ffffff;
+    --text-color: #130404;
+    position: relative;
+    width: 120px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+}
+.botaoespaco{
+    --bg: #ffffff;
+    --text-color: #130404;
+    position: relative;
+    width: 350px;
+    height: 70px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+}
+.botaolargo{
+    --bg: #ffffff;
+    --text-color: #130404;
+    position: relative;
+    width: 150px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+}
+.botaoalt2{
+    --bg: #ffffff;
+    --text-color: #130404;
+    position: relative;
+    width: 100px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+}
+.botaoctrl2{
+    --bg: #ffffff;
+    --text-color: #130404;
+    position: relative;
+    width: 100px;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: #6b6b6b 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161616 0px 3px 2px,#000 0px 3px 5px;
+}
+}
